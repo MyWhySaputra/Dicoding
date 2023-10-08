@@ -635,3 +635,22 @@ CSS3 memperkenalkan kemampuan untuk membuat rounded corner atau sudut bundar pad
 .rounded {
   border-radius: 10px 5px 10px 5px;
 }
+
+Positioning
+
+Normal Flow/Static Flow
+Ia adalah default behaviour yang dimiliki elemen, yakni setiap elemen block akan ditampilkan dalam baris baru ketika dibuat. Jadi, setiap elemen block selalu muncul di bawah dari elemen block sebelumnya. Bahkan, jika masih terdapat ruang kosong pada samping elemennya, mereka tidak akan tampak bersebelahan.
+
+Relative Positioning
+Membuat elemen dapat melakukan perpindahan posisi ke atas, kanan, bawah, ataupun kiri dari posisi semula atau posisi seharusnya elemen tersebut berada. Perpindahan posisi ini tidak akan berpengaruh terhadap posisi elemen di sekitarnya karena ketika menggunakan relative positioning elemen tersebut akan dipindahkan dari normal flow.
+
+Absolute Positioning
+Sama seperti relative, elemen akan dipindahkan keluar dari normal flow sehingga kita dapat memindahkan posisi elemen ke atas, kanan, bawah, ataupun kiri secara leluasa tanpa mengganggu elemen di sekitarnya. Namun, posisinya relatif terhadap jendela browser dan posisinya dapat relatif pada induk elemen selama induk elemen juga berada di luar dari normal flow.
+
+Fixed Positioning
+Ia merupakan absolute position. Namun, posisinya selalu relatif pada jendela browser, bahkan ketika pengguna melakukan scrolling posisinya akan tetap tampak pada posisinya di layar.
+
+floating
+Secara sederhananya, properti float dapat membuat elemen berada pada sebelah kanan atau kiri. Bahkan, jika diterapkan pada elemen inline memungkinkan elemen di sekitarnya mengelilingi elemen tersebut (wrap).
+
+
